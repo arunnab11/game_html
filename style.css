@@ -1,0 +1,93 @@
+*{
+    background-color:black;
+    padding: 0px;
+    margin:0px;
+}
+
+.content{
+    border: 2px solid white;
+    background-color:goldenrod;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width: 30%;
+    margin: 8% 0% 0% 30%;
+    border-radius:15px;
+}
+
+.gtn{
+    background-color: goldenrod;
+    color: black;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    background-color: red;
+    color: whitesmoke;
+    margin-top: 7%;
+    padding: 2%;
+    width: 35%;
+    border-radius:7px;
+}
+
+/* second page */
+
+.text{
+    background-color:goldenrod;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.enter_num{
+    background-color: azure;
+    color: black;
+    border: 1px solid;
+    padding: 1%;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    border-radius:10px 10px 10px 10px;
+    font-weight: 700;
+}
+
+#lives{
+    background-color: azure;
+    margin-top:4%;
+}
+
+#message{
+    background-color: azure;
+    margin-top:4%;
+}
+
+
+#win{
+    
+    width: 50%;
+    color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 33%;
+    font-size:60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#Lost{
+  
+    width: 50%;
+    color:whitesmoke;
+    fon
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 25%;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
